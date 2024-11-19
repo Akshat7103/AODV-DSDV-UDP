@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/aodv_dsdv_udp -n .:../src $*
+# for shared lib, use: opp_run -l ../src/aodv_dsdv_udp -n .:../src $*
